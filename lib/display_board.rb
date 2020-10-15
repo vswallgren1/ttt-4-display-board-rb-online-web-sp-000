@@ -58,7 +58,7 @@ def display_board(board)
 end
 
 
-board = ["X"," "," ","X"," "," ","X"," "," "]
+board = ["X"," "," "," ","X"," "," "," ","X"]
 def display_board(board)
   puts " #{board[0]} |   |   "
   puts "-----------"
@@ -68,7 +68,7 @@ def display_board(board)
 end
 
 
-board = [" "," "," "," "," "," "," "," "," "]
+board = [" "," ","O"," ","O"," ","O"," "," "]
 def display_board(board)
   puts "   |   | #{board[2]} "
   puts "-----------"
